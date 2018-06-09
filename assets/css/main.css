@@ -2838,7 +2838,7 @@
 
 			#header header {
 				padding-bottom: 9em;
-				width: 80%;
+				width: 30%;
 			}
 
 			#header .container {
@@ -2901,6 +2901,8 @@
 
 				#header header {
 					padding-bottom: 0;
+					width: 55%;
+					margin-top: 35px;
 				}
 
 					#header header h1 {
