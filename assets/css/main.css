@@ -82,7 +82,7 @@
 	}
 
 	.container {
-		width: 35em;
+		width: 65em;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -106,7 +106,7 @@
 		}
 
 		.container {
-			width: 35em;
+			width: 65em;
 		}
 
 	}
@@ -3032,4 +3032,15 @@
 					padding: 0;
 				}
 
+	}
+   /* */
+	
+	.bg-photo {
+		display: block;
+		position: absolute;
+		top: 33.32%;
+		bottom: 16.675%;
+		left: 0;
+		right: 0;
+		overflow: hidden;
 	}
