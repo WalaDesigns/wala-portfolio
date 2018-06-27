@@ -2729,7 +2729,7 @@
 			background: rgba(255, 255, 255, 0.95);
 			bottom: 0;
 			left: 50%;
-			margin-left: -17.5em;
+			margin-left: -32.5em;
 			padding: 2.5em;
 			position: absolute;
 		}
@@ -2867,6 +2867,7 @@
 
 /* Small */
 
+
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
@@ -2901,8 +2902,8 @@
 
 				#header header {
 					padding-bottom: 0;
-					width: 55%;
-					margin-top: 80px;
+					width: 30%;
+					margin-top: 30px;
 				}
 
 					#header header h1 {
@@ -2928,6 +2929,7 @@
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
+		
 
 		/* Basic */
 
@@ -3031,7 +3033,13 @@
 					margin: 0;
 					padding: 0;
 				}
-
+				
+					#header header {
+						padding-bottom: 0;
+						width: 55%;
+						margin-top: 80px;
+					}
+				
 	}
    /* */
 	
