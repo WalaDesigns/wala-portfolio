@@ -82,7 +82,7 @@
 	}
 
 	.container {
-		width: 35em;
+		width: 65em;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -106,7 +106,7 @@
 		}
 
 		.container {
-			width: 35em;
+			width: 65em;
 		}
 
 	}
@@ -2838,7 +2838,7 @@
 
 			#header header {
 				padding-bottom: 9em;
-				width: 80%;
+				width: 30%;
 			}
 
 			#header .container {
@@ -2901,6 +2901,8 @@
 
 				#header header {
 					padding-bottom: 0;
+					width: 55%;
+					margin-top: 80px;
 				}
 
 					#header header h1 {
@@ -3030,4 +3032,15 @@
 					padding: 0;
 				}
 
+	}
+   /* */
+	
+	.bg-photo {
+		display: block;
+		position: absolute;
+		top: 33.32%;
+		bottom: 16.675%;
+		left: 0;
+		right: 0;
+		overflow: hidden;
 	}
