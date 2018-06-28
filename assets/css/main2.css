@@ -1,11 +1,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 /* Reset */
 
@@ -1675,7 +1671,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #8cd1a8!important;
 		}
 
 	strong, b {
@@ -1896,12 +1892,12 @@
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				color: #8cd1a8;
+				border-color: #8cd1a8;
 			}
 
 			.icon.style2:active {
-				background-color: rgba(242, 132, 158, 0.1);
+				background-color: rgba(132, 242, 191, 0.1);
 			}
 
 /* List */
@@ -2177,8 +2173,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #f2849e;
-			box-shadow: inset 0 -1px 0 0 #f2849e;
+			border-bottom-color: #8cd1a8;
+			box-shadow: inset 0 -1px 0 0 #8cd1a8;
 		}
 
 	.select-wrapper {
@@ -2288,8 +2284,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f2849e;
-			box-shadow: 0 0 0 1px #f2849e;
+			border-color: #8cd1a8;
+			box-shadow: 0 0 0 1px #8cd1a8;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2509,8 +2505,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f2849e !important;
-			box-shadow: inset 0 0 0 2px #f2849e;
+			color: #8cd1a8!important;
+			box-shadow: inset 0 0 0 2px #8cd1a8;
 		}
 
 		input[type="submit"]:active,
@@ -2552,7 +2548,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f2849e;
+				background-color: #8cd1a8;
 			}
 
 			input[type="submit"].special:active,
@@ -2560,7 +2556,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #ee5f81;
+				background-color: #8cd1a8;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2730,7 +2726,7 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #8cd1a8;
 			}
 
 			.tiles article.style2 > .image:before {
