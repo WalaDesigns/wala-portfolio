@@ -3103,3 +3103,12 @@
 	width: 64px;
 	height:64px;
 }
+
+@media screen and (max-width: 736px) {
+	.avatar-container {
+		flex-direction: column;
+	}
+	.avatar-container1 {
+		flex-direction: column;
+	}
+}
