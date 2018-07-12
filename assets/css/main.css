@@ -3087,6 +3087,7 @@
 }
 .avatar{
 	display: flex;
+	flex: 1;
 }
 .avatar-hub {
 	display: flex;
