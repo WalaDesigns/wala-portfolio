@@ -3052,3 +3052,47 @@
 		right: 0;
 		overflow: hidden;
 	}
+
+.who-container {
+	display: flex;
+	flex-basis: auto;
+}
+
+/* .who-container  div {
+	flex: 1
+} */
+
+.who-flex {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	flex-basis: auto
+}
+
+.who-flex-a {
+	flex: 1;
+}
+
+.heliom {
+	flex: 1;
+}
+
+.avatar-container {
+	padding-top: 10px;
+	display: flex;
+}
+.avatar-container1 {
+	padding-top: 10px;
+	display: flex;
+}
+.avatar{
+	display: flex;
+}
+.avatar-hub {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.avatar-profile {
+	flex:1
+}
