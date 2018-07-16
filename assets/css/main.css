@@ -3116,3 +3116,51 @@
 		flex-direction: column;
 	}
 }
+
+/*  */
+@media screen and (min-width: 720px) {
+	.grid {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	  }
+	.cell {
+	  width: calc(50% - 32px);
+	}
+  }
+  
+  @media screen and (min-width: 960px) {
+	.cell {
+	  width: calc(33.3333% - 32px);
+	}
+  }
+
+  .cell {
+	margin: 16px;
+  }
+
+  .responsive-image {
+	max-width: 100%;
+  }
+
+  .cell img {
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-shadow: 2px 2px 2px 2px;
+  }
+
+  .portfolio-container {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0 16px;
+  }
+
+  div.polaroid{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	opacity: .5;
+  }
+  div.polaroid:hover{
+    opacity: 1.0;
+  }
