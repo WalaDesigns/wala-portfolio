@@ -3164,3 +3164,31 @@
   div.polaroid:hover{
     opacity: 1.0;
   }
+
+  .logo {
+	display: block;
+	text-indent: -9999px;
+	background:url(../../images/Wala_Logo.svg) no-repeat top center;
+	margin: auto;
+	background-size: 150px 164px;
+	width: 150px;
+	height: 164px;
+	text-decoration:none;
+	color:transparent !important;
+  } 
+
+  @media screen and (min-width: 650px) {
+	.logo {	
+		background-size: 200px 164px;
+		width: 200px;
+		height: 164px;
+	  } 
+  }
+  
+  @media screen and (min-width: 960px) {
+	.logo {
+		background-size: 300px 164px;
+		width: 300px;
+		height: 164px;
+	  } 
+  }
