@@ -1671,7 +1671,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #8cd1a8!important;
+			color: #149deb!important;
 		}
 
 	strong, b {
@@ -1892,8 +1892,8 @@
 			}
 
 			.icon.style2:hover {
-				color: #8cd1a8;
-				border-color: #8cd1a8;
+				color: #149deb;
+				border-color: #149deb;
 			}
 
 			.icon.style2:active {
@@ -2173,8 +2173,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #8cd1a8;
-			box-shadow: inset 0 -1px 0 0 #8cd1a8;
+			border-bottom-color: #149deb;
+			box-shadow: inset 0 -1px 0 0 #149deb;
 		}
 
 	.select-wrapper {
@@ -2284,8 +2284,8 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #8cd1a8;
-			box-shadow: 0 0 0 1px #8cd1a8;
+			border-color: #149deb;
+			box-shadow: 0 0 0 1px #149deb;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2505,8 +2505,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #8cd1a8!important;
-			box-shadow: inset 0 0 0 2px #8cd1a8;
+			color: #149deb!important;
+			box-shadow: inset 0 0 0 2px #149deb;
 		}
 
 		input[type="submit"]:active,
@@ -2548,7 +2548,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #8cd1a8;
+				background-color: #149deb;
 			}
 
 			input[type="submit"].special:active,
@@ -2556,7 +2556,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #8cd1a8;
+				background-color: #149deb;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2726,7 +2726,7 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #8cd1a8;
+				background-color: #149deb;
 			}
 
 			.tiles article.style2 > .image:before {
