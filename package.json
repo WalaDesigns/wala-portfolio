@@ -1,0 +1,26 @@
+{
+  "name": "wala-portfolio",
+  "version": "1.0.0",
+  "description": "wala Designs website ",
+  "main": "mail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WalaDesigns/wala-portfolio.git"
+  },
+  "author": "Wala Designs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WalaDesigns/wala-portfolio/issues"
+  },
+  "homepage": "https://github.com/WalaDesigns/wala-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.7",
+    "path": "^0.12.7"
+  }
+}
