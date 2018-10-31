@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
 
 // POST route from contact form
 app.post('/send', function (req, res) {
-    let milOpts, smtpTrans;
+    let mailOpts, smtpTrans;
     smtpTrans = nodemailer.createTransport({
       host: "smtp.gmail.com",
       //service: 'yahoo mail',
@@ -27,28 +27,26 @@ app.post('/send', function (req, res) {
       service:'gmail',
       secure: false,
       auth: {
-        user: "wala.design.agency@gmail.com",
-        pass: ""//process.env.EMAIL_PASS
+        user: "process.env.EMAIL_USERNAME",
+        pass: "process.env.EMAIL_PASS"//process.env.EMAIL_PASS
       }
     });
     mailOpts = {
       //from: req.body.name + ' &lt;' + req.body.email + '&gt;',
       from : req.body.email,
       to: "wala.design.agency@gmail.com",
-      subject: 'New message from contact form at Cugene.com',
-      text: `${req.body.message} from ${req.body.email}`
+      subject: 'New Email from WalaDesigns',
+      text: `${req.body.message}`
     };
-    smtpTrans.sendMail(mailOpts, function (error, response) {
+    smtpTrans.sendMail(mailOpts, function (error, info) {
       if (error) {
         res.json('contact-failure');
         console.log(error)
       }
       else {
-        // res.json('contact-success');
-        res.redirect('/')
+        console.log(info)
         console.log('sent')
-        // let success = "Mail has been sent!";
-        // $('.contact-us').append(success);
+        res.redirect('/')
       }
     });
   });
